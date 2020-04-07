@@ -4,6 +4,21 @@ description: RESTFul API endpoint description
 
 # Block/Tx
 
+### Prerequisites
+
+* Check $chain_id information from [launch repository](https://github.com/hdac-io/launch)
+
+* Set configuration for a rest server
+
+```bash
+# required
+clif config chain-id <$chain_id>
+# optional
+clif config output json
+clif config indent true
+clif config trust-node true
+```
+
 ### Step to send Tx
 
 * Run rest server
